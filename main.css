@@ -1,0 +1,111 @@
+/* VARIABLES */
+:root {
+    --primary-color: #ffa35c;
+    --secondary-color: #cc6a58;
+    --lighter-bg-color: #eee;
+    --font-color: #000;
+    --bg-color: #fff;
+    --switch-bg-color: rgba(0, 0, 0, 0.15);
+    --loader-bg-color: #ffffff;
+    --scroll-bg-color: #eee;
+    --scroll-fg-color: #ccc;
+    --moon: block;
+    --sun: none;
+    --invert: invert(0%);
+}
+
+[data-theme="dark"] {
+    --primary-color: #ffa35c;
+    --secondary-color:  #cc6a58;
+    --lighter-bg-color: rgb(30, 30, 30);
+    --font-color: #ffffff;
+    --bg-color: #0a0a0a;
+    --switch-bg-color: rgba(255, 255, 255, 0.15);
+    --loader-bg-color: #151515;
+    --scroll-bg-color: #0f0f0f;
+    --scroll-fg-color: #272727;
+    --moon: none;
+    --sun: block;
+    --invert: invert(100%);
+}
+
+/* PREREQUISITES */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+h1{
+    color: var(--font-color);
+}
+
+/* DARK MODE SWITCH */
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    float: right;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+}
+
+.theme-switch-wrapper a {
+    margin: 10px 15px;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30;
+    text-align: center;
+    padding-top: 10px;
+    background-color: var(--switch-bg-color);
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.4s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.sun {
+    display: var(--sun);
+}
+
+.moon {
+    display: var(--moon);
+}
+
+.slider img {
+    height: 30px;
+}
+
+.slider.round {
+    border-radius: 50%;
+}
