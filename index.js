@@ -1,3 +1,25 @@
+// FULLPAGE
+
+var myFullpage = new fullpage('#fullpage', {
+    navigation: true,
+    scrollOverflow: true,
+    navigationPosition: 'right',
+    navigationTooltips: ['Home', 'About Me', 'Skills', 'Works', 'Contact'],
+    css3: false
+});
+
+// LOADER
+
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+    document.getElementById("load").style.transform = "translateY(-200vh)";
+}
+
 // DARK MODE
 
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
