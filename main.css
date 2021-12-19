@@ -393,6 +393,7 @@ h1{
   width: 100%;
   position: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-image: url('images/bruh.png');
@@ -400,5 +401,36 @@ h1{
 
 .choco1 h1{
   color: #fff;
-  font-size: 70px;
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 12%;
+}
+
+.choco1 img{
+  height: 75%;
+  width: 65%;
+}
+
+/*CHERRY*/
+.cherry{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('images/cherry.png');
+}
+
+.cherry h1{
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 12%;
+}
+
+.cherry img{
+  height: 75%;
+  width: 65%;
 }
