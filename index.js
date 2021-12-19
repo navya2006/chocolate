@@ -14,7 +14,7 @@ function showPage() {
 // FULLPAGE
 
 var myFullpage = new fullpage('#fullpage', {
-    navigation: true,
+    navigation: false,
     scrollOverflow: true,
     navigationPosition: 'right',
     navigationTooltips: ['Home', 'About Me', 'Skills', 'Works', 'Contact'],
