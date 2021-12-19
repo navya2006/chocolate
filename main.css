@@ -85,6 +85,81 @@ a:hover {
     opacity: 1;
 }
 
+.mainBod{
+	display: none;
+}
+
+/* LOADER */
+.loads-grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 22%;
+    
+  }
+  .loads-grid div {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background: #523837;
+    animation: lds-grid 1.2s linear infinite;
+  }
+  .loads-grid div:nth-child(1) {
+    top: 15px;
+    left: 15px;
+    animation-delay: 0s;
+  }
+  .loads-grid div:nth-child(2) {
+    top: 15px;
+    left: 39px;
+    animation-delay: -0.4s;
+  }
+  .loads-grid div:nth-child(3) {
+    top: 15px;
+    left: 63px;
+    animation-delay: -0.8s;
+  }
+  .loads-grid div:nth-child(4) {
+    top: 39px;
+    left: 15px;
+    animation-delay: -0.4s;
+  }
+  .loads-grid div:nth-child(5) {
+    top: 39px;
+    left: 39px;
+    animation-delay: -0.8s;
+  }
+  .loads-grid div:nth-child(6) {
+    top: 39px;
+    left: 63px;
+    animation-delay: -1.2s;
+  }
+  .loads-grid div:nth-child(7) {
+    top: 63px;
+    left: 15px;
+    animation-delay: -0.8s;
+  }
+  .loads-grid div:nth-child(8) {
+    top: 63px;
+    left: 39px;
+    animation-delay: -1.2s;
+  }
+  .loads-grid div:nth-child(9) {
+    top: 63px;
+    left: 63px;
+    animation-delay: -1.6s;
+  }
+  @keyframes lds-grid {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+
 /* DARK MODE SWITCH */
 .theme-switch-wrapper {
     display: flex;
