@@ -3,15 +3,9 @@
   --one: #ffa35c;
   --two: #cc6a58;
   --three: #4a3533;
-  --font-color: #000;
-  --bg-color: #fff;
-  --switch-bg-color: rgba(0, 0, 0, 0.15);
-  --loader-bg-color: #ffffff;
-  --scroll-bg-color: #eee;
-  --scroll-fg-color: #ccc;
-  --moon: block;
-  --sun: none;
-  --invert: invert(0%);
+  --four: #000;
+  --five: #fff;
+  --six: #ccc8c8;
 }
 
 /* PREREQUISITES */
@@ -377,11 +371,11 @@ padding:5px;
 }
 
 /* HOME */
-.home{
+#home{
   background-color: #fff;
 }
 
-h1{
+#home h1{
   font-size: 50px;
   color: var(--font-color);
   text-align: center;
@@ -410,11 +404,8 @@ h1{
 .choco1 img{
   height: 75%;
   width: 65%;
-  transition: 0.4s;
-}
-
-.choco1 img:hover{
-  transform: scaleX(1.1) scaleY(1.1);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
 }
 
 /*CHERRY*/
@@ -440,11 +431,8 @@ h1{
 .cherry img{
   height: 75%;
   width: 65%;
-  transition: 0.4s;
-}
-
-.cherry img:hover{
-  transform: scaleX(1.1) scaleY(1.1);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
 }
 
 /*MINT*/
@@ -470,11 +458,8 @@ h1{
 .mint img{
   height: 75%;
   width: 65%;
-  transition: 0.4s;
-}
-
-.mint img:hover{
-  transform: scaleX(1.1) scaleY(1.1);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
 }
 
 /*STRAWBERRY*/
@@ -500,11 +485,8 @@ h1{
 .berry img{
   height: 75%;
   width: 65%;
-  transition: 0.4s;
-}
-
-.berry img:hover{
-  transform: scaleX(1.1) scaleY(1.1);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
 }
 
 /*WHITE*/
@@ -530,11 +512,8 @@ h1{
 .white img{
   height: 75%;
   width: 65%;
-  transition: 0.4s;
-}
-
-.white img:hover{
-  transform: scaleX(1.1) scaleY(1.1);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
 }
 
 /*YELLOW*/
@@ -560,9 +539,69 @@ h1{
 .yellow img{
   height: 75%;
   width: 65%;
-  transition: 0.4s;
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
 }
 
-.yellow img:hover{
+/*FOOTER*/
+#footer{
+  background-color: var(--four);
+  color: var(--five);
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+#footer .row{
+  padding: 1%;
+}
+
+#footer .col-md-2{
+  padding: 1%;
+}
+
+#footer h1{
+  color: var(--five);
+  font-size: 27px;
+  text-align: left;
+}
+
+#footer p{
+  padding: 1%;
+  font-size: 15px;
+  color: var(--six);
+}
+
+#footer h2{
+  padding: 1%;
+  font-size: 20px;
+  color: var(--six);
+}
+
+#footer img{
+  height: 200px;
+  width: 270px;
+  transition: 0.4s;
+  padding-bottom: 2%;
+  padding: 1%;
+}
+
+#footer img:hover{
   transform: scaleX(1.1) scaleY(1.1);
+}
+
+/*ANIMATIONS*/
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
