@@ -403,12 +403,18 @@ h1{
   color: #fff;
   font-size: 32px;
   text-align: left;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
 .choco1 img{
   height: 75%;
   width: 65%;
+  transition: 0.4s;
+}
+
+.choco1 img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
 }
 
 /*CHERRY*/
@@ -427,12 +433,18 @@ h1{
   color: #fff;
   font-size: 32px;
   text-align: left;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
 .cherry img{
   height: 75%;
   width: 65%;
+  transition: 0.4s;
+}
+
+.cherry img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
 }
 
 /*MINT*/
@@ -451,12 +463,18 @@ h1{
   color: #fff;
   font-size: 32px;
   text-align: left;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
 .mint img{
   height: 75%;
   width: 65%;
+  transition: 0.4s;
+}
+
+.mint img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
 }
 
 /*STRAWBERRY*/
@@ -475,12 +493,18 @@ h1{
   color: #fff;
   font-size: 32px;
   text-align: left;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
 .berry img{
   height: 75%;
   width: 65%;
+  transition: 0.4s;
+}
+
+.berry img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
 }
 
 /*WHITE*/
@@ -499,10 +523,46 @@ h1{
   color: #fff;
   font-size: 32px;
   text-align: left;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
 .white img{
   height: 75%;
   width: 65%;
+  transition: 0.4s;
+}
+
+.white img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+/*YELLOW*/
+.yellow{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('images/yellow.png');
+}
+
+.yellow h1{
+  color: #fff;
+  font-size: 32px;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-left: 2%;
+}
+
+.yellow img{
+  height: 75%;
+  width: 65%;
+  transition: 0.4s;
+}
+
+.yellow img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
 }
