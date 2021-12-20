@@ -397,7 +397,7 @@ padding:5px;
   color: #fff;
   font-size: 32px;
   text-align: left;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
@@ -406,6 +406,34 @@ padding:5px;
   width: 65%;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
+}
+
+.choco1 h2{
+  color: #fff;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.choco1 h3{
+  color: #fff;
+  font-size: 23px;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-left: 2%;
+}
+
+.choco1 .but{
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 3%;
+  width: 40%;
+  transition: 0.4s;
+}
+
+.choco1 .but:hover{
+  border: 4px solid #eee;
 }
 
 /*CHERRY*/
@@ -424,7 +452,7 @@ padding:5px;
   color: #fff;
   font-size: 32px;
   text-align: left;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
@@ -433,6 +461,34 @@ padding:5px;
   width: 65%;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
+}
+
+.cherry h2{
+  color: #fff;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cherry h3{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-left: 2%;
+}
+
+.cherry .but{
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 3%;
+  width: 38%;
+  transition: 0.4s;
+}
+
+.cherry .but:hover{
+  border: 4px solid #eee;
 }
 
 /*MINT*/
@@ -451,7 +507,7 @@ padding:5px;
   color: #fff;
   font-size: 32px;
   text-align: left;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
@@ -460,6 +516,34 @@ padding:5px;
   width: 65%;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
+}
+
+.mint h2{
+  color: #fff;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mint h3{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-left: 2%;
+}
+
+.mint .but{
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 3%;
+  width: 38%;
+  transition: 0.4s;
+}
+
+.mint .but:hover{
+  border: 4px solid #eee;
 }
 
 /*STRAWBERRY*/
@@ -478,7 +562,7 @@ padding:5px;
   color: #fff;
   font-size: 32px;
   text-align: left;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
@@ -487,6 +571,34 @@ padding:5px;
   width: 65%;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
+}
+
+.berry h2{
+  color: #fff;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.berry h3{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-left: 2%;
+}
+
+.berry .but{
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 3%;
+  width: 38%;
+  transition: 0.4s;
+}
+
+.berry .but:hover{
+  border: 4px solid #eee;
 }
 
 /*WHITE*/
@@ -505,8 +617,32 @@ padding:5px;
   color: #fff;
   font-size: 32px;
   text-align: left;
+  padding-bottom: 5%;
+  padding-left: 2%;
+}
+
+.white h2{
+  color: #fff;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.white h3{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
   padding-bottom: 15%;
   padding-left: 2%;
+}
+
+.white .but{
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 3%;
+  width: 38%;
+  transition: 0.4s;
 }
 
 .white img{
@@ -514,6 +650,10 @@ padding:5px;
   width: 65%;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
+}
+
+.white .but:hover{
+  border: 4px solid #eee;
 }
 
 /*YELLOW*/
@@ -532,7 +672,7 @@ padding:5px;
   color: #fff;
   font-size: 32px;
   text-align: left;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   padding-left: 2%;
 }
 
@@ -541,6 +681,34 @@ padding:5px;
   width: 65%;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
+}
+
+.yellow h2{
+  color: #fff;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.yellow h3{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-left: 2%;
+}
+
+.yellow .but{
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 3%;
+  width: 38%;
+  transition: 0.4s;
+}
+
+.yellow .but:hover{
+  border: 4px solid #eee;
 }
 
 /*FOOTER*/
