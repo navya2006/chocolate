@@ -1,0 +1,258 @@
+:root {
+  --one: #ffa35c;
+  --two: #cc6a58;
+  --three: #4a3533;
+  --four: #000;
+  --five: #fff;
+  --six: #ccc8c8;
+  --seven: #ededed;
+}
+
+/* PREREQUISITES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+  }
+  
+  html {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+  }
+  
+  hr {
+    width: 85%;
+    border-color: var(--lighter-bg-color);
+    transition: 0.4s !important;
+  }
+  
+  .align-right {
+    text-align: right !important;
+  }
+  
+  .align-left {
+    text-align: left !important;
+  }
+  
+  .align-center {
+    text-align: center !important;
+  }
+  
+  .right {
+    float: right !important;
+  }
+  
+  .left {
+    float: left !important;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .mainBod{
+  display: none;
+  }
+  
+  /* LOADER */
+  .loads-grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 22%;
+    
+  }
+  .loads-grid div {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background: var(--three);
+    animation: lds-grid 1.2s linear infinite;
+  }
+  .loads-grid div:nth-child(1) {
+    top: 15px;
+    left: 15px;
+    animation-delay: 0s;
+  }
+  .loads-grid div:nth-child(2) {
+    top: 15px;
+    left: 39px;
+    animation-delay: -0.4s;
+  }
+  .loads-grid div:nth-child(3) {
+    top: 15px;
+    left: 63px;
+    animation-delay: -0.8s;
+  }
+  .loads-grid div:nth-child(4) {
+    top: 39px;
+    left: 15px;
+    animation-delay: -0.4s;
+  }
+  .loads-grid div:nth-child(5) {
+    top: 39px;
+    left: 39px;
+    animation-delay: -0.8s;
+  }
+  .loads-grid div:nth-child(6) {
+    top: 39px;
+    left: 63px;
+    animation-delay: -1.2s;
+  }
+  .loads-grid div:nth-child(7) {
+    top: 63px;
+    left: 15px;
+    animation-delay: -0.8s;
+  }
+  .loads-grid div:nth-child(8) {
+    top: 63px;
+    left: 39px;
+    animation-delay: -1.2s;
+  }
+  .loads-grid div:nth-child(9) {
+    top: 63px;
+    left: 63px;
+    animation-delay: -1.6s;
+  }
+  @keyframes lds-grid {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  /*NAVBAR*/
+  .navb {
+      position:fixed;
+      z-index:500;
+      top:0px;
+      right:0px;
+    padding-right: 3%;
+    padding-top: 3%;
+  }
+  
+  .navb .bar a{
+    display:block;
+      color: #000;
+      text-align:right;
+      text-decoration:none;
+      transition: all 0.4s;
+      position:relative;
+      font-size:17px;
+      text-transform:uppercase;
+  }
+  
+  /*SIDENAV*/
+  .sidenav {
+      height:100%;
+      width:0%;
+      position:fixed;
+      z-index:500;
+      top:0px;
+      left:0px;
+    padding-top: 4px;
+      background-color:rgba(255,255,255,0.6);
+      overflow-x:hidden;
+      transition:0.4s;
+      padding-top:22%;
+  }
+  
+  .sidenav a{
+      display:block;
+      color:var(--four);
+      padding: 6px 2px;
+      width:80%;
+      text-align:center;
+      text-decoration:none;
+      transition: all 0.4s;
+      position:relative;
+      font-size:17px;
+      text-transform:uppercase;
+  }
+  
+  .sidenav a::after {
+      position:absolute;
+      bottom:0px;
+      left:0px;
+      right:0px;
+      margin:auto;
+      width:0%;
+      content:'.';
+      color:transparent;
+      background-color:var(--four);
+      height:2px;
+      transition: all 0.4s;
+  }
+  
+  .sidenav a:hover::after {
+      width:30%;
+  }
+  
+  .sidenav .close {
+      position:absolute;
+      top:60px;
+      right:35px;
+      font-size:36px;
+      width:10%;
+  }
+  
+  
+  @media screen and (max-height:450px) {
+      .sidenav {padding-top:15px;}
+      .sidenav a {font-size:18px;}
+  }
+  
+  @media screen and (max-width:950px){
+      .nav-big {
+          display:none !important;
+      }
+      .nav-small {
+      display: block!important;	
+      }	
+  }
+  
+  .nav-big {
+      display:block;
+  }	
+  
+  .nav-small{
+      display:none;
+  }
+  
+  .nav-small .icon{
+      color: #000;
+      font-size: 35px;
+      padding:5px;
+  }
+
+/*CRAN*/
+.cran{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('images/cran.png');
+  }
+  
+.cran img{
+    height: 98%;
+    width: 45%;
+    padding-top: 200px;
+    transition: 0.4s;
+  }
+
+.cran img:hover{
+  transform: scaleX(1.1) scaleY(1.1);
+}
