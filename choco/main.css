@@ -149,6 +149,7 @@
       position:relative;
       font-size:17px;
       text-transform:uppercase;
+      cursor: pointer;
   }
   
   /*SIDENAV*/
