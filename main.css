@@ -143,13 +143,14 @@ display: none;
 
 .navb .bar a{
   display:block;
+  font-family: 'Poppins', sans-serif;
 	color:var(--five);
 	text-align:right;
 	text-decoration:none;
 	transition: all 0.4s;
 	position:relative;
 	font-size:17px;
-	text-transform:uppercase;
+	
 }
 
 /*SIDENAV*/
@@ -620,7 +621,7 @@ display: none;
 
 #footer img{
   height: 200px;
-  width: 270px;
+  width: 75%;
   transition: 0.4s;
   padding-bottom: 2%;
   padding: 1%;
