@@ -6,6 +6,7 @@
   --five: #fff;
   --six: #ccc8c8;
   --seven: #ededed;
+  --eight: #111;
 }
 
 /* PREREQUISITES */
@@ -235,6 +236,37 @@
       padding:5px;
   }
 
+/*ABOUT*/
+.about{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('images/about.png');
+}
+
+.about .pink{
+  background-color: #e56278;
+  color: var(--seven);
+  margin: 5%;
+  border-radius: 2%;
+}
+
+.about h1{
+  font-size: 31px;;
+  padding: 4%;
+  padding-top: 10%;
+}
+
+.about p{
+  padding: 4%;
+  padding-top: 0%;
+  font-size: 18px;;
+}
+
 /*CRAN*/
 .cran{
     height: 100%;
@@ -244,16 +276,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-image: url('images/cran.png');
+    background-image: url('img/cran.png');
   }
   
 .cran img{
     height: 98%;
     width: 45%;
     padding-top: 200px;
-    transition: 0.4s;
+    transition: 0.6s;
   }
 
 .cran img:hover{
   transform: scaleX(1.1) scaleY(1.1);
 }
+
