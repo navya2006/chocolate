@@ -240,18 +240,30 @@
 .about{
   height: 100%;
   width: 100%;
-  position: fixed;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-image: url('images/about.png');
+  padding-top:3%;
+  padding-left: 4%;
 }
 
 .about .pink{
   background-color: #e56278;
   color: var(--seven);
-  margin: 4%;
+  padding: 4%;
+  margin-top: 10%;
+  margin-right: 1%;
+  border-radius: 2%;
+  margin-bottom: 1%;
+}
+
+.about .brown{
+  background-color: #6f80de;
+  color: var(--seven);
+  padding: 4%;
+  margin-top: 10%;
   margin-right: 1%;
   border-radius: 2%;
   margin-bottom: 1%;
@@ -260,13 +272,20 @@
 .about .yellow{
   background-color: var(--one);
   color: var(--seven);
+  color: var(--seven);
+  padding: 4%;
+  margin-top: 10%;
+  margin-right: 1%;
   border-radius: 2%;
+  margin-bottom: 1%;
 }
 
 .about .green{
   background-color: #23ba76;
   color: var(--seven);
-  margin-top: 4%;
+  padding: 4%;
+  margin-top: 10%;
+  margin-right: 1%;
   border-radius: 2%;
   margin-bottom: 1%;
 }
@@ -284,10 +303,10 @@
 }
 
 .about img{
-  margin-left: 6%;
-  margin-top: 1%;
-  height: 82%;
-  width: 90%;
+  margin-top: 13%;
+  padding-left: 5%;
+  height: 90%;
+  width: 80%;
 }
 
 /*CRAN*/
