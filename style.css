@@ -380,3 +380,27 @@ cursor: pointer;
 transform: scaleX(1.1) scaleY(1.1);
 cursor: pointer;
 }
+
+/*CRISPY*/
+.crispy{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('img/caramel.png');
+}
+
+.crispy img{
+  height: 98%;
+  width: 45%;
+  padding-top: 200px;
+  transition: 0.6s;
+}
+
+.crispy img:hover{
+transform: scaleX(1.1) scaleY(1.1);
+cursor: pointer;
+}
