@@ -251,8 +251,24 @@
 .about .pink{
   background-color: #e56278;
   color: var(--seven);
-  margin: 5%;
+  margin: 4%;
+  margin-right: 1%;
   border-radius: 2%;
+  margin-bottom: 1%;
+}
+
+.about .yellow{
+  background-color: var(--one);
+  color: var(--seven);
+  border-radius: 2%;
+}
+
+.about .green{
+  background-color: #23ba76;
+  color: var(--seven);
+  margin-top: 4%;
+  border-radius: 2%;
+  margin-bottom: 1%;
 }
 
 .about h1{
@@ -262,9 +278,16 @@
 }
 
 .about p{
-  padding: 4%;
+  padding: 3%;
   padding-top: 0%;
   font-size: 18px;;
+}
+
+.about img{
+  margin-left: 6%;
+  margin-top: 1%;
+  height: 82%;
+  width: 90%;
 }
 
 /*CRAN*/
